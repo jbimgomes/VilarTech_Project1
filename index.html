@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="scripts/script.css" />
+    <link rel="stylesheet" type="text/css" href="scripts/general.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <title>VilarTech: make IT easy</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img src="img/logo.png" alt="Logo da empresa Vilartech" class="logo" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li class="menu-item"><a href="#" class="main-nav-link">Sobre</a></li>
+          <li class="menu-item">
+            <a href="#" class="main-nav-link">Serviços</a>
+          </li>
+          <li class="menu-item"><a href="#" class="main-nav-link">Blog</a></li>
+          <li class="menu-item">
+            <a href="#" class="main-nav-link nav-cta">Make IT easy!</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">HEADING PRIMARY</h1>
+            <p class="hero-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
+              aperiam neque aspernatur laudantium fugit nobis nulla suscipit
+              enim distinctio nostrum deserunt, ea ratione fuga maxime iure,
+              accusantium est earum ipsa.
+            </p>
+            <a href="#cta" class="btn btn--full margin-right-sm"
+              >Fale conosco</a
+            >
+            <a href="#how" class="btn btn--outline">Nossos serviços &darr;</a>
+          </div>
+          <div class="hero-img-box">
+            <img
+              src="/img/datacenter.jpg"
+              alt="Mulher programando em frente a um datacenter"
+              class="hero-img"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="section-services">
+        <div class="container">
+          <span class="subheading">Nossos serviços</span>
+          <h2 class="heading-secondary">
+            Soluções para todas as suas necessidades
+          </h2>
+        </div>
+
+        <!-- Três cards para listar os serviços -->
+        <div class="container grid grid--3-cols margin-bottom-md">
+          <div class="service">
+            <img
+              class="service-img"
+              src="/img/programming.jpg"
+              alt="Programming on a computer "
+            />
+            <div class="service-card-content">
+              <p class="service-card-title">Desenvolvimento</p>
+              <ul class="service-card-attributes">
+                <li class="service-card-attribute">
+                  <ion-icon class="service-icon" name="globe"></ion-icon>
+                  <span>Front & Backend</span>
+                </li>
+                <li class="service-card-attribute">
+                  <ion-icon
+                    class="service-icon"
+                    name="phone-portrait"
+                  ></ion-icon>
+                  <span>UI Design</span>
+                </li>
+                <li class="service-card-attribute">
+                  <ion-icon class="service-icon" name="contacts"></ion-icon>
+                  <span>UX Design</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- CARD 2 -->
+          <div class="service">
+            <img
+              class="service-img"
+              src="/img/card-dep.jpg"
+              alt="Realizando implantação de sistema "
+            />
+            <div class="service-card-content">
+              <p class="service-card-title">Google WorkSpace</p>
+              <ul class="service-card-attributes">
+                <li class="service-card-attribute">
+                  <ion-icon
+                    class="service-icon md hydrated"
+                    name="desktop"
+                    role="img"
+                    aria-label="desktop"
+                  ></ion-icon>
+                  <span>Implantação</span>
+                </li>
+                <li class="service-card-attribute">
+                  <ion-icon
+                    class="service-icon md hydrated"
+                    name="cloud-upload"
+                    role="img"
+                    aria-label="cloud-upload"
+                  ></ion-icon>
+                  <span>Migração</span>
+                </li>
+                <li class="service-card-attribute">
+                  <ion-icon
+                    class="service-icon md hydrated"
+                    name="book"
+                    role="img"
+                    aria-label="book"
+                  ></ion-icon>
+                  <span>Treinamento</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!--  -->
+
+          <!-- CARD 3 -->
+          <div class="service">
+            <img
+              class="service-img"
+              src="/img/support-img.jpeg"
+              alt="Realizando implantação de sistema "
+            />
+            <div class="service-card-content">
+              <p class="service-card-title">Suporte Técnico</p>
+              <ul class="service-card-attributes">
+                <li class="service-card-attribute">
+                  <ion-icon
+                    class="service-icon md hydrated"
+                    name="construct"
+                    role="img"
+                    aria-label="construct"
+                  ></ion-icon>
+                  <span>Manutenção</span>
+                </li>
+                <li class="service-card-attribute">
+                  <ion-icon
+                    class="service-icon md hydrated"
+                    name="repeat"
+                    role="img"
+                    aria-label="repeat"
+                  ></ion-icon>
+                  <span>Upgrades</span>
+                </li>
+                <li class="service-card-attribute">
+                  <ion-icon
+                    class="service-icon md hydrated"
+                    name="save"
+                    role="img"
+                    aria-label="save"
+                  ></ion-icon>
+                  <span>Backup & Formatação</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+        <div class="container all-services">
+          <a href="#" class="link"
+            >Veja todos os nossos serviços &rightarrow;</a
+          >
+        </div>
+      </section>
+
+      <section class="section-about">
+        <div class="about">
+          <div class="hero-img-box">
+            <img
+              src="/img/logo.png"
+              alt="Mulher programando em frente a um datacenter"
+              class="about-img"
+            />
+          </div>
+          <div class="about-text-box">
+            <span class="subheading abt-sh">Sobre nós</span>
+            <p class="about-description">
+              Situada em São José, SC, começamos do desejo de tornar as coisas
+              simples, com compromisso de qualidade e tecnologia de ponta. A
+              VilarTech nasceu para tornar a sua vida mais fácil, com soluções
+              inovadoras no mercado de TI, para que sua unica preocupação seja o
+              seu negócio. Deixe a sua infraestrutura com a gente e torne sua
+              vida mais fácil,
+              <strong>Make IT easy!</strong>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Fale conosco agora mesmo!</h2>
+              <p class="cta-text">
+                Preencha o formulário abaixo e aguarde o contato de um dos
+                nossos consultores especializados, ele vai encontrar a melhor
+                solução para tornar a sua vida mais simples!
+              </p>
+
+              <form action="#" class="cta-form">
+                <div>
+                  <label for="full-name">Nome completo</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="João da Silva"
+                    required=""
+                  />
+                </div>
+                <div>
+                  <label for="email">E-mail</label>
+                  <input
+                    required=""
+                    id="email"
+                    type="email"
+                    placeholder="joao.s@seuprovedor.com"
+                  />
+                </div>
+                <div>
+                  <label for="select-where">De onde ouviu falar de nós?</label>
+                  <select name="" id="select-where" required="">
+                    <option value="empty">Selecione uma opção:</option>
+                    <option value="friends">Friends and Family</option>
+                    <option value="youtube">Youtube video</option>
+                    <option value="podcast">Podcast</option>
+                    <option value="ad">Facebook ad</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+
+                <button class="btn btn--form">Enviar!</button>
+              </form>
+            </div>
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="Woman enjoying food"
+            ></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img src="/img/logo.png" alt="Omnifood logo" class="logo" />
+          </a>
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#">
+                <ion-icon
+                  class="social-icon md hydrated"
+                  name="logo-instagram"
+                  role="img"
+                ></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">
+                <ion-icon
+                  class="social-icon md hydrated"
+                  name="logo-facebook"
+                  role="img"
+                ></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">
+                <ion-icon
+                  class="social-icon md hydrated"
+                  name="logo-twitter"
+                  role="img"
+                ></ion-icon>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright">
+            Copyright © <span class="year">2024</span> by VilarTech, Inc. All
+            rights reserved
+          </p>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">42 Wallaby Way, Sidney</p>
+            <p>
+              <a class="footer-link" href="tel:(55489999999999)"
+                >+55 (48) 99999-99999</a
+              >
+              <br />
+              <a class="footer-link" href="mailto:contato@vilartech.com.br"
+                >contato@vilartech.com.br</a
+              >
+            </p>
+          </address>
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About VilarTech</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Our Partners</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
